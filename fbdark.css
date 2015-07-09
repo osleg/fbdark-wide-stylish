@@ -1633,7 +1633,6 @@ body.plugin {
 }
 
 /* auto-hide left side bar */
-
 #leftCol {
     z-index: 0 !important;
     background-color: #252423;
@@ -1651,19 +1650,20 @@ body.plugin {
 #contentCol { margin-left: 0px !important; }
 
 /* remove junk from left side bar */
-
 #developerNav, #pagesNav, #appsNav, #interestsNav { display: none; }
 
 /* images etc in the middle */
-
 ._6n_, ._5cq3, ._4-eo, ._6n8, ._6o0, ._6m5, ._6ks, ._6kt, ._6m2, ._2a2q, ._9_n, ._9_m {
     margin: 0px auto !important;
     display: block !important;
 }
 
 /* fixes */
-
 *._5vsj .UFIRow { margin: 5px 10px !important; }
 *._5vsj .UFIReplyList .UFIComponent.UFILastComponent:after { display: none; }
 #stream_pagelet .mvm { position: relative; }
 
+/* Remove games from left side bar */
+#pagelet_canvas_nav_content { display: none; }
+/* Remove translations icon */
+a[aria-label="Translations"] { display: none; }
