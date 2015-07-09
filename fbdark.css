@@ -1664,6 +1664,13 @@ body.plugin {
 #stream_pagelet .mvm, .mbm, #event_description { position: relative; }
 .composerTypeahead { height: 64px; }
 .uiTypeahead, ._27uf, ._5po9, ._4t2a { background: none !important; border: none !important; }
+textarea, .uiOverlayFooter { background: none !important; }
+.uiBoxGray { background-color: #252423; border: none !important; }
+._1yv .uiBoxGray, ._59s7 ._5a8u { background: none !important; }
+.uiButton, .uiButtonSuppressed:active, .uiButtonSuppressed:focus, .uiButtonSuppressed:hover {
+    background-color: #252423 !important;
+    border: 1px solid #464544!important;
+}
 
 /* Remove games from left side bar */
 #pagelet_canvas_nav_content { display: none; }
