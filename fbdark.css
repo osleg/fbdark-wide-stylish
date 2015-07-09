@@ -1,14 +1,12 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document domain("facebook.com") {
 /*!========================================\\
-|| Dark Wide Facebiij                      ||  Date: 09-JUL-2015
-|| Based on facebook dark 2                ||
-||-----------------------------------------|| 
+|| dark-facebook [generation 2]            ||
+||-----------------------------------------||
 || a simple dark theme for facebook.       ||
-|| https://github.com/dtinth/dark-facebook ||  License: CC-BY-SA
+|| https://github.com/dtinth/dark-facebook ||
 \\----------------------------------------!*/
 
-  #admin_panel .uiDataTable td,
+#admin_panel .uiDataTable td,
 #admin_panel_notifications .blueName,
 #bfb_options_button_li ul a,
 #contentCol,
@@ -147,7 +145,7 @@ ul.fbChatOrderedList li a {
 div._511n,
 div._5w-6,
 h5.uiStreamHeadline {
-    color: #8b8685!important
+    color: #8b8685!important;
 }
 #admin_panel a,
 #fbCalendarWrapper a,
@@ -209,13 +207,13 @@ h5.uiStreamHeadline {
 [id=SettingsPage_Content] a {
     color: #9bb6df!important;
 }
-  
-div #rightCol { 
+
+div #rightCol {
    display:none!important;
-}  
+}
 ._5vb_ ._dcs .__c_, ._5vb_ ._6l- { background-color: #353433!important;}
 
-  
+
 
 div #pagelet_rhc_footer { display: none!important;}
 ._-shadow,
@@ -1632,8 +1630,42 @@ body.plugin {
 }
 .emoticonsPanel .emoteTogglerImg:hover {
     opacity: 1!important
-}  
-
-  
-
 }
+
+/* auto-hide left side bar */
+#leftCol {
+    z-index: 0 !important;
+    background-color: #252423;
+    border: 1px solid #464544!important;
+    margin-right: -200px !important;
+    opacity: 1 !important;
+    margin-left: -20px !important;
+    margin-top: 10px !important;
+    position: fixed !important;
+}
+#leftCol a {
+    color: #cfc7c6!important;
+}
+#leftCol:hover { z-index: 1000 !important; }
+#contentCol { margin-left: 0px !important; }
+
+/* remove junk from left side bar */
+#developerNav, #pagesNav, #appsNav, #interestsNav { display: none; }
+
+/* images etc in the middle */
+._6n_, ._5cq3, ._4-eo, ._6n8, ._6o0, ._6m5, ._6ks, ._6kt, ._6m2, ._2a2q, ._9_n, ._9_m {
+    margin: 0px auto !important;
+    display: block !important;
+}
+
+/* fixes */
+*._5vsj .UFIRow { margin: 5px 10px !important; }
+*._5vsj .UFIReplyList .UFIComponent.UFILastComponent:after { display: none; }
+#stream_pagelet .mvm, .mbm, #event_description { position: relative; }
+.composerTypeahead { height: 64px; }
+.uiTypeahead, ._27uf, ._5po9, ._4t2a { background: none !important; border: none !important; }
+
+/* Remove games from left side bar */
+#pagelet_canvas_nav_content { display: none; }
+/* Remove translations icon */
+a[aria-label="Translations"] { display: none; }
