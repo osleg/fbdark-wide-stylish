@@ -1640,7 +1640,7 @@ body.plugin {
     margin-right: -200px !important;
     opacity: 1 !important;
     margin-left: -20px !important;
-    margin-top: 170px !important;
+    margin-top: 10px !important;
     position: fixed !important;
 }
 #leftCol a {
@@ -1661,7 +1661,7 @@ body.plugin {
 /* fixes */
 *._5vsj .UFIRow { margin: 5px 10px !important; }
 *._5vsj .UFIReplyList .UFIComponent.UFILastComponent:after { display: none; }
-#stream_pagelet .mvm { position: relative; }
+#stream_pagelet .mvm, .mbm, #event_description { position: relative; }
 .composerTypeahead { height: 64px; }
 .uiTypeahead, ._27uf, ._5po9, ._4t2a { background: none !important; border: none !important; }
 
