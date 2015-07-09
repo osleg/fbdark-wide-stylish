@@ -1664,7 +1664,7 @@ body.plugin {
 #stream_pagelet .mvm, .mbm, #event_description { position: relative; }
 .composerTypeahead { height: 64px; }
 .uiTypeahead, ._27uf, ._5po9, ._4t2a { background: none !important; border: none !important; }
-textarea, .uiOverlayFooter { background: none !important; }
+textarea, .uiOverlayFooter { background: none !important; color: white !important; }
 .uiBoxGray { background-color: #252423; border: none !important; }
 ._1yv .uiBoxGray, ._59s7 ._5a8u { background: none !important; }
 .uiButton, .uiButtonSuppressed:active, .uiButtonSuppressed:focus, .uiButtonSuppressed:hover {
