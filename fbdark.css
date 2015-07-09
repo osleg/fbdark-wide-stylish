@@ -1,10 +1,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 /*!========================================\\
-|| Dark Wide Facebiij                      ||  Date: 09-JUL-2015
-|| Based on facebook dark 2                ||
+|| dark-facebook [generation 2]            ||
 ||-----------------------------------------||
 || a simple dark theme for facebook.       ||
-|| https://github.com/dtinth/dark-facebook ||  License: CC-BY-SA
+|| https://github.com/dtinth/dark-facebook ||
 \\----------------------------------------!*/
 
 #admin_panel .uiDataTable td,
@@ -146,7 +145,7 @@ ul.fbChatOrderedList li a {
 div._511n,
 div._5w-6,
 h5.uiStreamHeadline {
-    color: #8b8685!important
+    color: #8b8685!important;
 }
 #admin_panel a,
 #fbCalendarWrapper a,
@@ -1633,17 +1632,20 @@ body.plugin {
     opacity: 1!important
 }
 
-
 /* auto-hide left side bar */
 
 #leftCol {
     z-index: 0 !important;
-    background-color: black;
+    background-color: #252423;
+    border: 1px solid #464544!important;
     margin-right: -200px !important;
     opacity: 1 !important;
     margin-left: -20px !important;
     margin-top: 170px !important;
     position: fixed !important;
+}
+#leftCol a {
+    color: #cfc7c6!important;
 }
 #leftCol:hover { z-index: 1000 !important; }
 #contentCol { margin-left: 0px !important; }
@@ -1663,4 +1665,5 @@ body.plugin {
 
 *._5vsj .UFIRow { margin: 5px 10px !important; }
 *._5vsj .UFIReplyList .UFIComponent.UFILastComponent:after { display: none; }
+#stream_pagelet .mvm { position: relative; }
 
