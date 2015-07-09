@@ -1671,6 +1671,12 @@ textarea, .uiOverlayFooter { background: none !important; color: white !importan
     background-color: #252423 !important;
     border: 1px solid #464544!important;
 }
+#headerArea { 
+    margin: 0px auto !important;
+    position: relative;
+    float: none !important;
+}
+
 
 /* Remove games from left side bar */
 #pagelet_canvas_nav_content { display: none; }
