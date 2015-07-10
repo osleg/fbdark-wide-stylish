@@ -1695,6 +1695,16 @@ a[aria-label="Translations"] { display: none; }
     width: 205px !important;
 }
 
+/* fix for icons panel */
+._5q5b ._50mz .emoticonsPanel ._5r8f.panelFlyout {
+    bottom: 42px!important;
+    right: 0!important;
+}
+.emoticonsPanel div._5r8f .panelFlyoutArrow {
+    left: 256px!important;
+}
+
+/* wider content area */
 div #contentArea {
     width: 100% !important;
 }
@@ -1703,9 +1713,13 @@ div #contentArea {
 	padding: 0!important;
     width: 90%!important;
 }
+
+/* chats moved to right */
 .sidebarMode ._48gf { right: 56px;}
 
+/* post picture background fix */
 ._5inf {
     background-color: #353433!important;
 }
+
 }
