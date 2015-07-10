@@ -1644,11 +1644,44 @@ body.plugin {
     margin-left: -20px !important;
     margin-top: 10px !important;
     position: fixed !important;
+    width: 20px!important;
+    word-wrap:normal!important;
 }
+    
+
 #leftCol a {
     color: #cfc7c6!important;
 }
-#leftCol:hover { z-index: 1000 !important; }
+#leftCol:hover { 
+    z-index: 1000 !important; 
+    width: 164px!important;
+}
+    
+#leftCol ._3-91,  #leftCol ._8u._42ef, #leftCol .uiPopover {
+    display: none!important;
+}
+#leftCol:hover ._3-91, #leftCol:hover .navHeader, #leftCol:hover ._8u._42ef, #leftCol:hover .uiPopover {
+    display:block!important;
+}
+#leftCol .sideNavItem {
+    margin-left: -6px!important;
+    /*padding-left: 12px!important;*/
+}
+/* unread badges */
+#leftCol ._5aff {
+    position: relative!important;
+    background-color: #464544!important;
+    font-size: 0.7em!important;
+    top: -1em!important;
+    z-index: 999!important;
+    border-radius: 5px!important;
+}
+#leftCol:hover ._5aff {
+    background-color: transparent!important;
+    font-size: 1em!important;
+    top: 0!important;
+}    
+
 #contentCol { margin-left: 0px !important; }
 
 /* remove junk from left side bar */
@@ -1721,11 +1754,12 @@ div #contentArea {
 ._5inf {
     background-color: #353433!important;
 }
-
 /* top navbar wide */
 .sidebarMode ._uaw {
     padding-right: 0!important;
     width: 90%!important;
 }
 
+
 }
+
