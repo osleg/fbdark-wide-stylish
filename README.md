@@ -2,5 +2,7 @@
 
 Based on facebook dark 2
 
-- Removed right toolbar with ads and events.
-- Made feed wide to take all the space
+Darkish (grey) style for FaceBook with usability tweaks
+
+### Todos:
+- [ ] Fix “Messages” pane.
