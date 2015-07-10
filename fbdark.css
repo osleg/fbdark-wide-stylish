@@ -1710,6 +1710,7 @@ textarea, .uiOverlayFooter { background: none !important; color: white !importan
     margin: 0px auto !important;
     position: relative;
     float: none !important;
+    width: 100%!important;
 }
 
 
