@@ -9,3 +9,4 @@ Darkish (grey) style for FaceBook with usability tweaks
 ### Todos:
 - [ ] Fix “Messages” category, it’s too narrow.
 - [ ] In Contacts window move status icon on avatar when sidebar is collapsed
+- [ ] Fix Grey text on grey background when the text was shared from another place
