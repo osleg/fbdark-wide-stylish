@@ -1722,4 +1722,10 @@ div #contentArea {
     background-color: #353433!important;
 }
 
+/* top navbar wide */
+.sidebarMode ._uaw {
+    padding-right: 0!important;
+    width: 90%!important;
+}
+
 }
