@@ -1691,6 +1691,10 @@ a[aria-label="Translations"] { display: none; }
     width: 46px!important;
 }
 
+.fbChatSidebar:hover {
+    width: 205px !important;
+}
+
 div #contentArea {
     width: 100% !important;
 }
