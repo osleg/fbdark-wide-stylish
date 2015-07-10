@@ -1685,4 +1685,23 @@ textarea, .uiOverlayFooter { background: none !important; color: white !importan
 /* Remove translations icon */
 a[aria-label="Translations"] { display: none; }
 
+/* Chat sidebar small and sexy */
+
+.fbChatSidebar {
+    width: 46px!important;
+}
+
+div #contentArea {
+    width: 100% !important;
+}
+
+.sidebarMode #globalContainer {
+	padding: 0!important;
+    width: 90%!important;
+}
+.sidebarMode ._48gf { right: 56px;}
+
+._5inf {
+    background-color: #353433!important;
+}
 }
