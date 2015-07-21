@@ -1654,7 +1654,7 @@ body.plugin {
 }
 #leftCol:hover {
     z-index: 1000 !important;
-    width: 164px!important;
+    clip: auto !important;
 }
 
 #leftCol ._3-91,  #leftCol ._8u._42ef, #leftCol .uiPopover {
