@@ -3,7 +3,7 @@
 /*!=============================================\\
 || Dark Wide Facebiij                           ||  Date: 09-JUL-2015
 || Based on facebook dark 2                     ||
-||----------------------------------------------|| 
+||----------------------------------------------||
 || a simple dark theme for facebook.            ||
 || https://github.com/osleg/fbdark-wide-stylish ||  License: CC-BY-SA
 \\----------------------------------------------!*/
@@ -1644,19 +1644,19 @@ body.plugin {
     margin-left: -20px !important;
     margin-top: 10px !important;
     position: fixed !important;
-    width: 20px!important;
+    clip: rect(0px,30px,auto,0px) !important;
     word-wrap:normal!important;
 }
-    
+
 
 #leftCol a {
     color: #cfc7c6!important;
 }
-#leftCol:hover { 
-    z-index: 1000 !important; 
+#leftCol:hover {
+    z-index: 1000 !important;
     width: 164px!important;
 }
-    
+
 #leftCol ._3-91,  #leftCol ._8u._42ef, #leftCol .uiPopover {
     display: none!important;
 }
@@ -1680,7 +1680,7 @@ body.plugin {
     background-color: transparent!important;
     font-size: 1em!important;
     top: 0!important;
-}    
+}
 
 #contentCol { margin-left: 0px !important; }
 
@@ -1706,7 +1706,7 @@ textarea, .uiOverlayFooter { background: none !important; color: white !importan
     background-color: #252423 !important;
     border: 1px solid #464544!important;
 }
-#headerArea { 
+#headerArea {
     margin: 0px auto !important;
     position: relative;
     float: none !important;
