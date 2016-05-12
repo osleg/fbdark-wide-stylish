@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("facebook.com") {
 /*!=============================================\\
-|| Dark Wide Facebiij                           ||  Date: 09-JUL-2015
+|| Dark Wide Facebook                           ||  Date: 09-JUL-2015
 || Based on facebook dark 2                     ||
 ||----------------------------------------------||
 || a simple dark theme for facebook.            ||
@@ -130,7 +130,10 @@
 .uiTypeaheadView li,
 body:not(.plugin),
 ul.fbChatOrderedList li a {
-    color: #e9e8e7!important
+    color: #e9e8e7!important;
+    border-color: #3d3c4c!important;
+    /*border-color: #3d3c4c!important;*/
+    /*border-color: #3d3c4c!important;*/
 }
 #pageFooter a,
 .DOMControl_placeholder,
@@ -821,8 +824,8 @@ div#pagelet_home_stream {
     border-color: #464544!important
 }
 ._2iwq {
-    background-color: #464544!important;
-    background-image: linear-gradient(to right, #464544 0, #535251 20%, #464544 40%, #464544 100%)!important
+    /*background-color: #464544!important;*/
+    /*background-image: linear-gradient(to right, #464544 0, #535251 20%, #464544 40%, #464544 100%)!important*/
 }
 ._2iwq div {
     background: #353433!important
@@ -1375,7 +1378,7 @@ a._4jy0 {
 #fbRequestsJewel #fbRequestsFlyout .hasPYMK,
 ._33c,
 .messagesContent {
-    border-color: #464544!important
+    border: none!important;
 }
 ._33e:focus,
 .messagesContent:focus {
@@ -1765,5 +1768,7 @@ div #contentArea {
 }
 
 
+._2s1y {
+    background-image:linear-gradient(to right, #464544 0, #535251 20%, #464544 40%, #464544 100%)!important;
 }
 
