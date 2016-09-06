@@ -1390,11 +1390,13 @@ a._4jy0 {
 }
 ._4af ._33e,
 .jewelItemNew,
+.jewelItemNew ._33e,
 .jewelItemNew .messagesContent {
     background-color: #35344d!important
 }
 ._4af ._33e:focus,
 ._4af ._33e:hover,
+.jewelItemNew ._33e,
 .jewelItemNew .messagesContent:focus,
 .jewelItemNew .messagesContent:hover,
 .jewelItemNew:focus,
@@ -1771,10 +1773,9 @@ div #contentArea {
 ._2s1y {
     background-image:linear-gradient(to right, #464544 0, #535251 20%, #464544 40%, #464544 100%)!important;
 }
-._ors ._33c {
+._ors ._33c, ._39k2, div._39k5._5s6c, div._4lmp,
+div._1gtv,
+div._1gtx {
 	background-color: #353433!important;
 }
-
 }
-
-
