@@ -1808,4 +1808,12 @@ div._1gtv,
 div._1gtx, ._3t09 {
 	background-color: #353433!important;
 }
+/*dimming for images*/
+._4-eo, ._2t9n, ._5dec, ._xcx, ._6ks {
+	filter:brightness(70%)!important;
+}
+._4-eo:hover, ._2t9n:hover, ._5dec:hover, ._xcx:hover, ._6ks:hover  {
+        filter: unset!important;
+}
+
 }
