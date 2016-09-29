@@ -240,7 +240,6 @@ div #pagelet_rhc_footer { display: none!important;}
 ._guu,
 ._kj3,
 ._z6j,
-._5und,
 .appCenterCategoryBanner,
 .appCenterInvite,
 .appCenterSmallCuratedSlot,
@@ -428,6 +427,8 @@ div #contentArea {
 ._guu,
 ._kj3,
 ._z6j,
+._4-u8,
+._5und,
 .appCenterCategoryBanner,
 .appCenterInvite,
 .appCenterSmallCuratedSlot,
@@ -508,6 +509,15 @@ ul.fbChatOrderedList li a:hover {
     color: #8b8685!important;
     background: #353433!important
 }
+
+._1g5v+._4arz, ._ipn ._ipo {
+	background-color: #353433 !important;
+}
+
+.UFIList ._1g5v+._4arz {
+	background-color: #3d3c4c !important;
+}
+
 ._554r,
 .fbSidebarGripper {
     border-color: #464544!important
@@ -793,6 +803,7 @@ div#pagelet_home_stream {
 ._5eh8,
 ._5pb0,
 ._6m2,
+._ipo,
 .shareRedesign,
 .shareRedesignContainer,
 .shareRedesignText {
@@ -1707,19 +1718,28 @@ body.plugin {
 *._5vsj .UFIReplyList .UFIComponent.UFILastComponent:after { display: none; }
 #stream_pagelet .mvm, .mbm, #event_description { position: relative; }
 .composerTypeahead { height: 64px; }
-.uiTypeahead, ._27uf, ._5po9, ._4t2a { background: none !important; border: none !important; }
+.uiTypeahead, ._27uf, ._5po9, ._4t2a, ._ors ._33c { background: none !important; border: none !important; }
 textarea, .uiOverlayFooter { background: none !important; color: white !important; }
-.uiBoxGray { background-color: #252423; border: none !important; }
+.uiBoxGray, ._4mq3 ._55ln { background-color: #252423; border: none !important; }
 ._1yv .uiBoxGray, ._59s7 ._5a8u { background: none !important; }
-.uiButton, .uiButtonSuppressed:active, .uiButtonSuppressed:focus, .uiButtonSuppressed:hover {
+.uiButton, .uiButtonSuppressed:active, .uiButtonSuppressed:focus, .uiButtonSuppressed:hover, ._4mq3 .uiScrollableArea, ._5iwm ._58al {
     background-color: #252423 !important;
     border: 1px solid #464544!important;
+}
+.jewelItemNew ._33e {
+    background-color: #3d3c4c !important;
 }
 #headerArea {
     margin: 0px auto !important;
     position: relative;
     float: none !important;
     width: 100%!important;
+}
+._4ar- ._3emk:nth-child(1) {
+    margin-left: 0px !important;
+}
+._4ar- ._3t54 {
+    margin-right: 5px;
 }
 
 
@@ -1745,6 +1765,15 @@ a[aria-label="Translations"] { display: none; }
 }
 .emoticonsPanel div._5r8f .panelFlyoutArrow {
     left: 256px!important;
+}
+._55y4 ._bui {
+    margin-left: -15px !important;
+}
+._2xk0._5vb_.hasLeftCol #leftCol {
+    padding-left: 5px !important;
+}
+._4fzb {
+    border-color: #464544;
 }
 
 /* wider content area */
