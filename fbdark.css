@@ -1412,7 +1412,9 @@ a._4jy0 {
 .jewelItemNew .messagesContent:focus,
 .jewelItemNew .messagesContent:hover,
 .jewelItemNew:focus,
-.jewelItemNew:hover {
+.jewelItemNew:hover,
+._55ln:hover,
+._55ln:focus{
     background-color: #201f2e!important
 }
 ._26y3 ._5cw0,
