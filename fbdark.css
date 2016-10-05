@@ -1659,6 +1659,7 @@ body.plugin {
     opacity: 1!important
 }
 
+
 /* auto-hide left side bar */
 #leftCol {
     z-index: 0 !important;
@@ -1808,10 +1809,12 @@ div #contentArea {
 ._2s1y {
     background-image:linear-gradient(to right, #464544 0, #535251 20%, #464544 40%, #464544 100%)!important;
 }
+._4o-g:hover,
 ._ors ._33c, ._39k2, div._39k5._5s6c, div._4lmp,
 div._1gtv,
 div._1gtx, ._3t09 {
-	background-color: #353433!important;
+	background-color: #464544!important;
+    text-decoration:none!important;
 }
 /*dimming for images*/
 ._4-eo, ._2t9n, ._5dec, ._xcx, ._6ks {
