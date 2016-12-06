@@ -1791,7 +1791,10 @@ div #contentArea {
 	padding: 0!important;
     width: 90%!important;
 }
-
+/* So tired of fixed container sizes... */
+#globalContainer {
+    width: 94%!important;
+}
 /* chats moved to right */
 .sidebarMode ._48gf { right: 56px;}
 
