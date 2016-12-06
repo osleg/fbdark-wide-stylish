@@ -1826,5 +1826,27 @@ div._1gtx, ._3t09 {
 ._4-eo:hover, ._2t9n:hover, ._5dec:hover, ._xcx:hover, ._6ks:hover  {
         filter: unset!important;
 }
-
+    img,
+    ._2-sx {
+    height:auto!important;
+    max-width:100%!important;
+}
+    @media screen and (max-width: 1100px) {
+        .stage, 
+        .rhc {
+            height: 100%!important;
+        }
+        #photos_snowlift,
+        .fbPhotoSnowliftContainer,
+        .fbPhotoSnowliftPopup,
+        .stageWrapper {
+            min-width: 90%!important;
+            width: 90%!important;
+            height: auto!important;
+            margin: auto!important;
+        }
+        .stageWrapper {
+            float: none!important;
+        }
+    }
 }
