@@ -431,6 +431,7 @@ div #contentArea {
 ._kj3,
 ._z6j,
 ._4-u8,
+._33c,
 ._5und,
 .appCenterCategoryBanner,
 .appCenterInvite,
@@ -1740,6 +1741,12 @@ textarea, .uiOverlayFooter { background: none !important; color: white !importan
     position: relative;
     float: none !important;
     width: 100%!important;
+}
+._4ar- ._3emk:nth-child(1) {
+    margin-left: 0px !important;
+}
+._4ar- ._3t54 {
+    margin-right: 5px;
 }
 ._4ar- ._3emk:nth-child(1) {
     margin-left: 0px !important;
